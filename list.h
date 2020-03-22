@@ -5,8 +5,8 @@
 
 typedef struct __list list;
 struct __list {
-  int data;
-  struct __list *addr;
+    int data;
+    struct __list *addr;
 };
 
 void print_list(list *head);
