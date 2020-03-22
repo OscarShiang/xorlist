@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     }
 
     struct timespec start, end;
-    FILE *fp = fopen("experiment", "w");
+    FILE *fp = fopen("experiment", "a");
 
     printf("the original list:\n");
     print_list(a);
