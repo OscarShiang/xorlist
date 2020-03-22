@@ -15,4 +15,4 @@ format:
 	clang-format -i *.c
 	clang-format -i *.h
 clean:
-	$(RM) $(OBJS) $(TARGET)
+	$(RM) $(OBJS) $(TARGET) experiment
